@@ -1,7 +1,7 @@
 name = "bi-connector"
 title = "MongoDB Connector for BI"
 
-intersphinx = ["https://docs.mongodb.com/manual/mongodb.inv", "https://docs.atlas.mongodb.com/cloud-docs.inv"]
+intersphinx = ["https://docs.mongodb.com/manual/objects.inv", "https://docs.atlas.mongodb.com/objects.inv"]
 
 [substitutions]
 branch = "``{0}``'.format(conf.git.branches.current)"
