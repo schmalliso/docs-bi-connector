@@ -3,7 +3,7 @@ title = "MongoDB Connector for BI"
 
 intersphinx = ["https://docs.mongodb.com/manual/objects.inv", "https://docs.atlas.mongodb.com/objects.inv"]
 
-toc_landing_pages = ["/installation", "/client-applications"]
+toc_landing_pages = ["/installation", "/client-applications", "/authentication", "/schema-configuration", "/components", "/reference", "/release-notes"]
 
 [substitutions]
 branch = "``{0}``'.format(conf.git.branches.current)"
