@@ -3,7 +3,7 @@ title = "MongoDB Connector for BI"
 
 intersphinx = ["https://docs.mongodb.com/manual/mongodb.inv", "https://docs.atlas.mongodb.com/cloud-docs.inv"]
 
-[substitutions]"
+[substitutions]
 branch = "``{0}``'.format(conf.git.branches.current)"
 copy = "&trade;"
 year = "{0}'.format(datetime.date.today().year)"
@@ -42,7 +42,7 @@ sasl = ":abbr:`SASL (Simple Authentication and Security Layer)`"
 iana = ":abbr:`IANA (Internet Assigned Numbers Authority)`"
 scram = ":abbr:`SCRAM (Salted Challenge Response Authentication Mechanism)`"
 
-[constants]"
+[constants]
 bi-atlas-short = "BI Connector for Atlas"
 bi-short = "BI Connector"
 download-center = "`MongoDB Download Center <https://www.mongodb.com/download-center/bi-connector>`__"
